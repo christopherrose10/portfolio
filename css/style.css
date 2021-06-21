@@ -139,6 +139,10 @@ section {
   margin: 0 auto;
   text-align: center;
 }
+
+.personal-links {
+  color: var(--primary-color);
+}
 /* Section ABOUT style end */
   
 /* Section PROJECTS Start */
