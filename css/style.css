@@ -163,6 +163,14 @@ section {
 }
 
 .applications h3 {
+  font-size: 35px;
+  color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.applications h4 {
   color: var(--primary-color);
   display: flex;
   justify-content: center;
