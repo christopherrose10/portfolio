@@ -1,4 +1,4 @@
-# portfolio
+# Portfolio
 
 ## Purpose
 A website to display my qualifications and projects.
