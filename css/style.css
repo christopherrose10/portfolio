@@ -1,6 +1,6 @@
 :root {
   --primary-color: rgb(54, 54, 54);
-  --secondary-color: rgb(148, 148, 148);
+  --secondary-color: rgb(187, 187, 187);
   --text-color: rgb(212, 187, 74);
   --primary-font: 'Roboto Slab';  
 }
@@ -19,7 +19,8 @@ body {
 /* HEADER style starts */
 header {
   padding: 20px 35px;
-  background-color: var(--primary-color);
+  background-image: url("https://static.vecteezy.com/system/resources/previews/001/236/702/non_2x/diagonal-black-background-with-golden-lines-vector.jpg");
+  /* background-color: var(--primary-color); */
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -74,7 +75,8 @@ header nav ul li a:hover {
   
 /* FOOTER style starts */
 footer {
-  background: var(--primary-color);
+  background-image: url("https://static.vecteezy.com/system/resources/previews/001/236/702/non_2x/diagonal-black-background-with-golden-lines-vector.jpg");
+  /* background: var(--primary-color); */
   width: 100%;
   padding: 40px 35px;
   display: flex;
@@ -90,7 +92,8 @@ section {
 }
   
 .profile {
-  background-color: var(--secondary-color);
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoFAEkrvAefTmKMh9SjeJiDNkglwfizRos3A&usqp=CAU");
+  /* background-color: var(--secondary-color); */
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -147,7 +150,8 @@ section {
   
 /* Section PROJECTS Start */
 .projects {
-  background-color: var(--text-color);
+  background-image: url("https://designsrock.org/wp-content/uploads/2017/05/Brushed-Gold-Metal-Background-Texture.jpg");
+  /* background-color: var(--text-color); */
   width: 100%;
 }
 
