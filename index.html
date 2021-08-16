@@ -1,123 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
+<head>
 
-        <meta charset="UTF-8" />
+    <meta charset="UTF-8" />
 
-        <link rel="shortcut icon" href="./images/cr.png" />
+    <link rel="shortcut icon" href="./images/cr.png" />
 
-        <title>Chris Rose Portfolio</title>
+    <title>Chris Rose Portfolio</title>
 
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet" />
 
-        <link rel="stylesheet" href="./css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
 
-    </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <body>
-        <!-- navigation -->
-        <header>
-            <h1>
-                <a href="./index.html"><img src="./images/cr.png" width="40" height="40" alt="CR logo"></a>
-            </h1>
-            <nav>
-                <!-- Unordered list element -->
-                <ul>
-                    <!-- List item element -->
-                    <li>
-                        <!-- Anchor element -->
-                        <a href="#about">About</a>
-                    </li>
-                    <li>
-                        <a href="#projects">Projects</a>
-                    </li>
-                    <li>
-                        <a href="#reach-out">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
+</head>
 
-        <section class="profile">
-            <div>
-                <img class="profile-pic" src="./images/profile-pic.png" alt="Chris Rose">
+<body>
+    <!-- navigation -->
+    <header>
+        <h1>
+            <a href="./index.html"><img src="./images/cr.png" width="50" height="50" alt="CR logo"></a>
+        </h1>
+        <nav>
+            <!-- Unordered list element -->
+            <ul>
+                <!-- List item element -->
+                <li>
+                    <!-- Anchor element -->
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#reach-out">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="profile">
+        <div>
+            <img class="profile-pic" src="./images/profile-pic.png" alt="Chris Rose">
+        </div>
+        <div class="flex-row">
+            <h2 class="section-title primary-border">
+                Chris Rose
+            </h2>
+        </div>
+        <div>
+            <p class="text">
+                <a class="personal-links" href="./Rose Resume.pdf" target="_blank">Resume</a>
+            </p>
+            <p class="text">
+                <a class="personal-links" href="https://github.com/christopherrose10" target="_blank">Git Hub</a>
+            </p>
+            <p class="text">
+                <a class="personal-links" href="https://www.linkedin.com/in/christopherrose10"
+                    target="_blank">LinkedIn</a>
+            </p>
+        </div>
+    </section>
+
+    <!-- "About" section -->
+    <section id="about" class="about">
+        <div class="flex-row">
+            <h2 class="section-title secondary-border">
+                About
+            </h2>
+        </div>
+        <div class="flex-row">
+            <p class="text">
+                I have a BS in Applied Mathematics with aspirations of working in a technical field. I enjoy working
+                with others and using critical thinking to problem-solve.
+            </p>
+        </div>
+    </section>
+
+    <!-- "PROJECTS" section -->
+    <section id="projects" class="projects">
+        <div class="flex-row">
+            <h2 class="section-title secondary-border">
+                Projects
+            </h2>
+        </div>
+        <!-- <div class="project">
+            <article class="applications">
+                <h3>Silver Stream</h3></br>
+                <h4><a class="personal-links" href="https://github.com/ColeSammons/Silver-Stream" target="_blank">Git
+                        Hub Repository</a></h4></br>
+                <a href="https://colesammons.github.io/Silver-Stream/" target="_blank"><img
+                        src="https://user-images.githubusercontent.com/82801290/122688050-c72cc400-d1ce-11eb-989e-b15fbf98fff6.png"
+                        width="300" height="300" alt="Silver Stream Application" /></a>
+            </article>
+        </div> -->
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
             </div>
-            <div class="flex-row">
-                <h2 class="section-title primary-border">
-                    Chris Rose
-                </h2>
-            </div>
-            <div>
-                <p class="text">
-                    <a class="personal-links" href="./Rose Resume.pdf" target="_blank">Resume</a>
-                </p>
-                <p class="text">
-                    <a class="personal-links" href="https://github.com/christopherrose10" target="_blank">Git Hub</a>
-                </p>
-                <p class="text">
-                    <a class="personal-links" href="https://www.linkedin.com/in/christopherrose10" target="_blank">LinkedIn</a>
-                </p>
-            </div>
-        </section>
-
-        <!-- "About" section -->
-        <section id="about" class="about">
-            <div class="flex-row">
-                <h2 class="section-title secondary-border">
-                    About
-                </h2>
-            </div>
-            <div class="flex-row">
-                <p class="text">
-                    I am an Applied Mathematics major with aspirations of working in IT. I enjoy working with others and using critical thinking to problem-solve.
-                </p>
-            </div>
-        </section>
-
-        <!-- "PROJECTS" section -->
-        <section id="projects" class="projects">
-            <div class="flex-row">
-                <h2 class="section-title secondary-border">
-                    Projects
-                </h2>
-            </div>
-            <div class="project">
-                <article class="applications">
-                    <h3>Silver Stream</h3></br>
-                    <h4><a class="personal-links" href="https://github.com/ColeSammons/Silver-Stream" target="_blank">Git Hub Repository</a></h4></br>
-                    <a href="https://colesammons.github.io/Silver-Stream/" target="_blank"><img src="https://user-images.githubusercontent.com/82801290/122688050-c72cc400-d1ce-11eb-989e-b15fbf98fff6.png" width="300" height="300" alt="Silver Stream Application" /></a>
-                </article>
-            </div>
-        </section>
-        <!-- "CONTACT" section -->
-        <section id="reach-out" class="contact">
-            <div class="flex-row">
-                <h2 class="section-title secondary-border">
-                    Contact
-                </h2>
-            </div>
-            <div class="contact-info">
-                <div>
-                    <p class="text">
-                       Please reach out with any questions.
-                    </p></br>
-
-                    <p class="text">
-                        Phone: (520)-227-1153
-                    </p></br>
-
-                    <a href="mailto:blazer5@email.arizona.edu">Email</a>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <div class="d-none d-md-block">
+                        <h1 class="text-center"><a class="personal-links"
+                                href="https://github.com/ColeSammons/Silver-Stream" target="_blank">Silver Stream</a>
+                        </h1></br>
+                    </div></br>
+                    <div>
+                        <a href="https://colesammons.github.io/Silver-Stream/" target="_blank"><img
+                                src="https://user-images.githubusercontent.com/82801290/122688050-c72cc400-d1ce-11eb-989e-b15fbf98fff6.png"
+                                class="d-block h-50 w-100" alt="Silver Stream Application"></a>
+                    </div></br>
                 </div>
-            </div>
-        </section>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <div class="d-none d-md-block">
+                        <h1 class="text-center"><a class="personal-links"
+                                href="https://github.com/bobswiftfoot/pet-sitting.git" target="_blank">Pet Sitting</a>
+                        </h1></br>
+                    </div></br>
+                    <div>
+                        <a href="https://rockstars-pet-sitting.herokuapp.com/" target="_blank"><img
+                                src="https://user-images.githubusercontent.com/82801290/129508118-bd739cc5-57fb-4270-9b05-a452372b30f1.png"
+                                class="d-block h-50 w-100" alt="Pet Sitting Application"></a>
+                    </div></br>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-none d-md-block">
+                        <h1 class="text-center"><a class="personal-links"
+                                href="https://github.com/christopherrose10/readme-generator.git" target="_blank">README Generator</a>
+                        </h1></br>
+                    </div></br>
+                    <div>
+                        <a href="https://drive.google.com/file/d/1xzW4Zoma4bQORpP8yc4Yd5JyPGG8j1PX/view" target="_blank"><img
+                                src="https://user-images.githubusercontent.com/82801290/123565690-93274500-d772-11eb-9c4b-c7de86d960e8.png"
+                                class="d-block h-50 w-100" alt="ReadME Generator"></a>
+                    </div></br>
+                </div>
+            </div></br>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
 
-        <!-- footer -->
-        <footer>
-            <h2>Copyright &copy; Chris Rose 2021</h2>
-        </footer>
-    </body>
+
+
+    </section>
+    <!-- "CONTACT" section -->
+    <section id="reach-out" class="contact">
+        <div class="flex-row">
+            <h2 class="section-title secondary-border">
+                Contact
+            </h2>
+        </div>
+        <div class="contact-info">
+            <div>
+                <p class="text">
+                    Please reach out with any questions.
+                </p></br>
+
+                <p class="text">
+                    Phone: (520)-227-1153
+                </p></br>
+
+                <a href="mailto:blazer5@email.arizona.edu">Email</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <h2>Copyright &copy; Chris Rose 2021</h2>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
 
 </html>
