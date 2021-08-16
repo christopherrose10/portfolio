@@ -1,6 +1,6 @@
 :root {
   --primary-color: rgb(54, 54, 54);
-  --secondary-color: rgb(148, 148, 148);
+  --secondary-color: rgb(187, 187, 187);
   --text-color: rgb(212, 187, 74);
   --primary-font: 'Roboto Slab';  
 }
@@ -19,7 +19,8 @@ body {
 /* HEADER style starts */
 header {
   padding: 20px 35px;
-  background-color: var(--primary-color);
+  background-image: url("https://static.vecteezy.com/system/resources/previews/001/236/702/non_2x/diagonal-black-background-with-golden-lines-vector.jpg");
+  /* background-color: var(--primary-color); */
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -74,7 +75,8 @@ header nav ul li a:hover {
   
 /* FOOTER style starts */
 footer {
-  background: var(--primary-color);
+  background-image: url("https://static.vecteezy.com/system/resources/previews/001/236/702/non_2x/diagonal-black-background-with-golden-lines-vector.jpg");
+  /* background: var(--primary-color); */
   width: 100%;
   padding: 40px 35px;
   display: flex;
@@ -90,7 +92,8 @@ section {
 }
   
 .profile {
-  background-color: var(--secondary-color);
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoFAEkrvAefTmKMh9SjeJiDNkglwfizRos3A&usqp=CAU");
+  /* background-color: var(--secondary-color); */
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -112,7 +115,7 @@ section {
       
 .section-title {
   font-size: 48px;
-  color: var(--primary-color);
+  color: black;
   border-bottom: 3px solid;
   padding-bottom: 20px;
   text-align: center;
@@ -147,14 +150,21 @@ section {
   
 /* Section PROJECTS Start */
 .projects {
-  background-color: var(--text-color);
+  background-image: url("https://cdn.wallpaperdirect.com/asset/img/product/156552/tiled/engblad-and-co-zack-uni-dark-grey-wallpaper-tiled-156552.jpg");
+  /* background-color: var(--text-color); */
   width: 100%;
 }
 
 .project {
+  color: black;
   margin: 20px;
   display: flex;
   flex-direction: row;
+}
+
+#project-name {
+  color: black;
+  text-decoration: none;
 }
 
 .applications {
@@ -162,16 +172,18 @@ section {
   flex-flow: column wrap;
 }
 
-.applications h3 {
+.applications h1 {
   font-size: 35px;
-  color: var(--primary-color);
+  color: black;
+  /* color: var(--primary-color); */
   display: flex;
   justify-content: center;
   text-align: center;
 }
 
-.applications h4 {
-  color: var(--primary-color);
+.applications h2 {
+  color: black;
+  /* color: var(--primary-color); */
   display: flex;
   justify-content: center;
   text-align: center;
