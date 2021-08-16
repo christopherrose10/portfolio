@@ -9,11 +9,12 @@ A website to display my qualifications and projects.
 ## Built With
 * HTML
 * CSS
+* Bootstrap 5
 
 ## Website
 https://christopherrose10.github.io/portfolio/
 
 ## Contribution
-Made by [Chris Rose]
+Made by [Chris Rose](https://github.com/christopherrose10)
 
 ### ©️2021 Chris Rose 
