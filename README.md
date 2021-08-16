@@ -1,6 +1,6 @@
 # Portfolio
 
-![PortfolioScreenShot](https://user-images.githubusercontent.com/82801290/122708652-7c806b80-d211-11eb-8ca9-c9e0d2ee97a2.png)
+![ScreenshotPortfolio](https://user-images.githubusercontent.com/82801290/129511085-9975632e-f967-45ef-a40c-0aafbd54bdca.png)
 
 
 ## Purpose
